@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: sayhello
-        run: echo "hello dosto"
+        run: echo "Hi"
 
       - name: saybye
         run: echo "bye"
