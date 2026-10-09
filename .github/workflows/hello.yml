@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: show repo name
-       run: echo "the repo name is ${{ github.event.repo.name }}"
+       run: echo "the repo name is ${{ github.event.repository.name }}"
 
 
 
